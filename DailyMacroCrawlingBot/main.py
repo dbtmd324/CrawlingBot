@@ -19,6 +19,7 @@ url = "https://kr.investing.com/portfolio/?portfolioID=NzE3bW4xYjY0Z29mMGEzMA%3D
 
 collect_data(url)
 
+test
 '''
     # 스케줄러에 URL별로 수집 시간을 등록
     schedule.every().day.at("10:00").do(collect_data, url)
